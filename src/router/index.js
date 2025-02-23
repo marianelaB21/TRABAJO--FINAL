@@ -3,6 +3,8 @@ import LoginView from '../views/LoginView.vue'
 import HomeView from '../views/HomeView.vue'
 import MovimientosView from '@/views/MovimientosView.vue'
 import EstadoActualView from '@/views/EstadoActualView.vue'
+import InversionesView from '@/views/InversionesView.vue'
+
 const routes = [
   {
     path: '/',
@@ -23,6 +25,11 @@ const routes = [
     path: '/EstadoActual',
     name: 'EstadoActualView',
     component: EstadoActualView
+  },
+  {
+    path: '/Inversiones',
+    name: 'InversionesView',
+    component: InversionesView
   },
 ]
 
