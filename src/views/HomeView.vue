@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <div>
+      <HeaderCrypto></HeaderCrypto>
+    </div> 
+    <div class="container" >
+
+        <CompraCrypto ></CompraCrypto>
+        <VentaCrypto ></VentaCrypto>
+    </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
+import CompraCrypto from '@/components/CompraCrypto.vue'
+import HeaderCrypto from '@/components/HeaderCrypto.vue'
+import VentaCrypto from '@/components/VentaCrypto.vue'
 
 export default {
-  name: 'HomeView',
+  name:"HomeView",
   components: {
-    HelloWorld
-  }
-}
+      HeaderCrypto,
+      CompraCrypto,
+      VentaCrypto,
+    },
+
+};
 </script>
+
+<style>
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+</style>
