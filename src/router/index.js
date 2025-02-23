@@ -4,7 +4,7 @@ import HomeView from '../views/HomeView.vue'
 import MovimientosView from '@/views/MovimientosView.vue'
 import EstadoActualView from '@/views/EstadoActualView.vue'
 import InversionesView from '@/views/InversionesView.vue'
-
+import ExchangeView from '@/views/ExchangeView.vue'
 const routes = [
   {
     path: '/',
@@ -30,6 +30,11 @@ const routes = [
     path: '/Inversiones',
     name: 'InversionesView',
     component: InversionesView
+  },
+  {
+    path: '/Exchange',
+    name: 'ExchangeView',
+    component: ExchangeView
   },
 ]
 
