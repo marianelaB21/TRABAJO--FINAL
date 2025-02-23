@@ -5,6 +5,7 @@
               <ul>
               <li><router-link to="/Home">Home</router-link> </li>
               <li><router-link to="/Movimientos">Movimientos</router-link> </li>
+              <li><router-link to="/EstadoActual">Estado Actual</router-link> </li>
               </ul>
           </nav>
       </div>
