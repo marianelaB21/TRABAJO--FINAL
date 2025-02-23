@@ -7,6 +7,7 @@
               <li><router-link to="/Movimientos">Movimientos</router-link> </li>
               <li><router-link to="/EstadoActual">Estado Actual</router-link> </li>
               <li><router-link to="/Inversiones">Inversiones</router-link> </li>
+              <li><router-link to="/Exchange">Exchange</router-link> </li>
               </ul>
           </nav>
       </div>
